@@ -8,6 +8,11 @@ base CRUD Generate
 
 composer update
 
+#Setup
+
+cp .env.example .env
+
+php artisan key:generate
 
 #Install Database
 
